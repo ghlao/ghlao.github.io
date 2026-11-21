@@ -5,11 +5,25 @@ body{
   width: 800px;
   margin: auto;
   text-align: center;
+
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
 }
 
 img{
-  border: 1px solid #000;
+  border: 2px solid #bb4;
   border-radius: 50%;
+  width: 100px;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: #222;
+  width: 60%;
+  margin-top: 200px;
+  margin-bottom: 20px;
 }
 
 a{
@@ -18,4 +32,8 @@ a{
 }
 a:hover{
   color: #770;
+}
+
+.icono{
+  margin: auto 10px;
 }
